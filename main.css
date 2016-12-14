@@ -1,0 +1,33 @@
+body {
+    background: lightblue;
+}
+
+@media (max-width: 767px) {
+    body {
+        background: #ea1e1e;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background: #0094c4;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    body {
+        background: #0eaf46;
+    }
+}
+
+@media (min-width: 980px) {
+    body {
+        background: #efb71e;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background: rgba(156, 15, 181, 0.97);
+    }
+}
